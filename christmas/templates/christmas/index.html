@@ -6,7 +6,10 @@
     <title>Is it Christmas?</title>
 </head>
 <body>
-    <h1>YES</h1>
-    <h1>NO</h1>
+    {% if christmas %}
+        <h1>YES</h1>
+    {% else %}
+        <h1>NO</h1>
+    {% endif %}
 </body>
 </html>
